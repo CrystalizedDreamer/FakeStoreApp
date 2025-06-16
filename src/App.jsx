@@ -1,8 +1,7 @@
-import { useState } from 'react'
+
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import  { BrowserRouter as Router, Route, Link, Routes } from 'react-router-dom';
-import { useEffect } from 'react';
 import React from 'react';     
 import Products from './components/products.jsx'; 
 import AddProducts  from './components/addProducts.jsx';
@@ -10,7 +9,6 @@ import Home from './components/home.jsx';
 
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
